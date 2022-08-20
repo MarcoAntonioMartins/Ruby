@@ -62,7 +62,7 @@ text = gets
 number = gets
 
 code = caesar_cipher_encode(text,number)
+decode caesar_cipher_decode(code,number)
 
 puts code 
-
-puts caesar_cipher_decode(code,number)
+puts decode 
